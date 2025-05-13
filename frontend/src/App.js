@@ -8,7 +8,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://ideal-space-system-4j7p94rj6rqgcq4px-5000.app.github.dev/ask", {
+    const res = await fetch("https://bot-backend-djja.onrender.com/ask", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query })
